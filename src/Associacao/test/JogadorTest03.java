@@ -5,8 +5,8 @@ import Associacao.domain.Time;
 
 public class JogadorTest03 {
     public static void main(String[] args) {
-        Jogador jogador1 = new Jogador("cafu");
-        Jogador jogador2 = new Jogador("pelé");
+        Jogador jogador1 = new Jogador("Cafu");
+        Jogador jogador2 = new Jogador("Pelé");
         Time time = new Time("Brasil");
         Jogador[] jogadores = {jogador1, jogador2};
 
