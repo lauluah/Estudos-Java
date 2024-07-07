@@ -1,18 +1,39 @@
 package Associacao.domain;
 
 public class Time {
-    private String nome;
+    private String name;
+    private Jogador[] jogadores;
 
-    public Time(String nome) {
-        this.nome = nome;
+    public Time(String name) {
+        this.name = name;
     }
 
-
-    public void setNome(String nome) {
-        this.nome = nome;
+    public Time(String name, Jogador[] jgadores) {
+        this.name = name;
+        this.jogadores = jgadores;
     }
 
-    public String getNome() {
-        return nome;
+    public void imprime() {
+        System.out.println(this.name);
+        if(jogadores == null) return;
+         for (Jogador jogador : jogadores) {
+             System.out.println(jogador.getName());
+         }
+    }
+
+    public Jogador[] getJogadores() {
+        return jogadores;
+    }
+
+    public void setJogadores(Jogador[] jogadores) {
+        this.jogadores = jogadores;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }
