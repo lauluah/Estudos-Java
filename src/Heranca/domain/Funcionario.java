@@ -1,4 +1,4 @@
-package Heranca.dominio;
+package Heranca.domain;
 
 public class Funcionario extends Pessoa {
     private double salario;
