@@ -2,6 +2,7 @@ package Kenum.domain.test;
 
 import Kenum.domain.Cliente;
 import Kenum.domain.TipoCliente;
+import Kenum.domain.TipoPagamento;
 
 public class ClienteTest01 {
     public static void main(String[] args) {
@@ -14,5 +15,8 @@ public class ClienteTest01 {
         System.out.println(cliente3);
         System.out.println(cliente4);
 
+        System.out.println(TipoPagamento.DEBITO.calcularDesconto(10));
+        TipoCliente tipoCliente2 = TipoCliente.tipoClientePorValor(2);
+        System.out.println("o resultado é " + tipoCliente2);
     }
 }
