@@ -1,8 +1,7 @@
-package NPolimorfismo.domain.Test;
+package NPolimorfismo.domain.test;
 
 import NPolimorfismo.domain.Computador;
 import NPolimorfismo.domain.Produto;
-import NPolimorfismo.domain.Televisao;
 import NPolimorfismo.domain.Tomate;
 import NPolimorfismo.domain.servico.CalculadoraImposto;
 

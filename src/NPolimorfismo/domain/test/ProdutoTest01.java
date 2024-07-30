@@ -1,4 +1,4 @@
-package NPolimorfismo.domain.Test;
+package NPolimorfismo.domain.test;
 
 import NPolimorfismo.domain.Computador;
 import NPolimorfismo.domain.Televisao;
